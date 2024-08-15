@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cadetblue;
+    /* background-color: rgba(0, 0, 0, 0.906); */
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 2%;
+    color: darkgreen;
+}
+
+#msg {
+    text-align: center;
+    margin-bottom: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    color:darkslategrey;
+    font-weight: bolder;
+}
+
+#game-board {
+    border: 3px solid oldlace;
+    margin-left: 33%;
+}
+
+#score {
+    margin-top: 1%;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

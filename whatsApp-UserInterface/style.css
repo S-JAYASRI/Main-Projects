@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+}
+
+.main-frame{
+    height: 70vh;
+    width: 20vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    border-radius: 17px;
+    background-color: rgba(0, 0, 0, 0.922);
+    
+}
+
+header{
+    height: 8vh;
+    width: 20vw;
+    /* border: 1px solid white; */
+}
+
+header h3{
+    color: white;
+    margin-top: 4%;
+    margin-left: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    position: absolute;
+}
+
+header img {
+    height: 30px;
+    float: right;
+    margin: 3%;
+    position: relative;
+
+}
+
+header img:nth-child(4) {
+    height: 20px;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+main {
+    height: 300px;
+    overflow: scroll;
+    position: relative;
+}
+
+.user-profiles img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 3% auto auto 4%;
+}
+
+.user-profiles p {
+    color: white;
+    display: inline-block;
+    margin-top: 3%;
+    margin-left: 3%;
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.user-profiles hr {
+    margin-top: 3%;
+    color: rgba(128, 128, 128, 0.189);
+}
+
+/*plus - icon*/
+#plus-icon {
+    height: 40px;
+    width: 40px;
+    margin-left: 80%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: sticky;
+    bottom: 5px;
+    background-color: rgb(12, 239, 95);
+    /*border: 2px solid skyblue;*/
+}
+
+#plus-icon > #plus-chat {
+    height: 30px;
+    margin-top:6px;
+    margin-left: 5px;
+    transform: rotate(180deg);
+    position: absolute;
+}
+
+#plus-icon > h2 {
+    color: black;
+    margin-left: 14px;
+    padding-top: 8px;
+    /*position: relative;*/
+    font-weight: bold;
+    position: absolute;
+    
+}
+
+footer {
+    height: 15vh;
+    width: 20vw;
+    margin-top: 6%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    /* border: 1px solid pink; */
+    background-color: black;
+    display: inline-block;
+}
+
+footer img {
+    height: 40px;
+    align-items: center;
+    padding: 8px;
+    margin: 5.4%;
+}
+
+footer img:nth-child(2) {
+    background-color: white;
+    border-radius: 70%;
+    
+}
+
+.footer-text p {
+    color: white;
+    display: inline-block;
+    padding: 2px;
+    margin: 0 2% auto;
+}
+
+.footer-text p:nth-child(1) {
+    margin-left: 12px;
+}
+
+.footer-text p:nth-child(2) {
+    margin-left: 22px;
+}
+
+.encrypt {
+    height: 10vh;
+    width: 20vw;
+    position: relative;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.encrypt img {
+    height: 15px;
+    margin: 4.5% auto auto 6%;
+    position: absolute;
+}
+
+.encrypt p {
+    color: gray;
+    font-size: 11px;
+    position: absolute;
+    margin: 5% 11.5% auto 12%;
+    
+}
+
+.encrypt p span {
+    color: rgb(77, 235, 77);
+}
+
+

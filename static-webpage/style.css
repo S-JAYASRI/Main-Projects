@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    /* border: 2px solid black; */
+    background-color: rgb(47, 193, 193);
+}
+
+.container-box {
+    height: 75vh;
+    width: 80vw;
+    background-image: url(../images/back-ground.jpg);
+    margin: 6%;
+
+} 
+
+header {
+    height: 10vh;
+    width: 60vw;
+    display: flex;
+    /* border: 2px solid black; */
+    
+} 
+
+header > h1 {
+    margin: 1% 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 500;
+    letter-spacing: 1px;
+    flex: 1;
+
+}
+
+header nav {
+    margin: 2%;
+    font-weight: 550;
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex: 5;
+}
+
+header > nav > a {
+    text-decoration: none;
+    flex: 5;
+}
+
+header > nav > a:hover {
+    color: darkmagenta;
+}
+
+.main-text {
+    height: 48vh;
+    width: 45vw;
+    margin: 2% 5% auto;
+    /* border: 2px solid black; */
+}
+
+.main-content h2 {
+    font-family: cursive;
+    color:darkmagenta;
+    font-style: italic;
+    font-size: 2em;
+}
+
+.main-content p {
+    margin: 2%;
+    text-indent: 50px;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* color: rgba(9, 9, 145, 0.909); */
+    color: rgb(69, 94, 20);
+}
+
+footer {
+    height: 10vh;
+    width: 60vw;
+    margin-top: 2%;
+    align-items: center;
+    padding-top: 2%;
+    /* border: 2px solid black; */
+}
+
+.input-box form > input{
+    height: 5vh;
+    width: 15vw;
+    background-color: transparent;
+    border: 2px solid navy;
+    border-radius: 5px;
+    margin: 0% 2% 5% 7%;
+    color: darkmagenta;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-indent: 15px;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.input-box form button {
+    background-color: darkmagenta;
+    height:5vh;
+    width: 7.5vw;
+    border: none;
+    border-radius: 5px;
+    color:wheat;
+    font-size: 1em;
+    font-family: cursive;
+    font-weight: 550;
+    letter-spacing: 1px;
+    margin-left: 5%;
+}
+
+form input:focus {
+    outline: 0;
+}
+
+form > button:hover {
+    color: darkmagenta;
+    background-color:rgb(237, 114, 237);
+}
+
+.main-side-images {
+    height: 95vh;
+    width: 28vw;
+    /* border: 2px solid black; */
+    float: right;
+    margin-right: 6%;
+    margin-top: 1%;
+    /* display: flex;
+    flex-direction: column;
+    */
+ 
+}
+
+.img-box-kid > img{
+    height: 32vh;
+    width: 12vw;
+    padding: 2%;
+}
+
+.img-box-women > img {
+    height: 32vh;
+    width: 12vw;
+    padding: 2%;
+}
+
+.img-box-men > img {
+    height: 32vh;
+    width: 12vw;
+    padding: 2%;
+}
+
+@media all and (max-width: 790px) {
+    nav {
+        height: 30vh;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* nav a {
+        display: none;
+    } */
+
+    .main-content {
+        margin-top: 50%;
+    }
+    
+}
+
+@media all and (max-width: 990px) {
+    .input-box form > input {
+        margin-top: 40%;
+    }
+    .input-box form button  {
+        width: 12vw;
+    }
+}
+
+
+@media all and (max-width: 778px) {
+    .main-side-images {
+        margin-top: 53%;
+    }
+    .img-box-kid > img {
+        height: 20vh;
+        width: 12vw;
+        padding: 2%;
+    }
+    .img-box-women > img {
+        height: 20vh;
+        width: 12vw;
+        padding: 2%;
+    }
+    .img-box-men > img {
+        height: 20vh;
+        width: 12vw;
+        padding: 2%;
+    }
+    .input-box form > input {
+        margin-top: 65%;
+    }
+    .input-box form button  {
+        width: 12vw;
+    }
+}
+

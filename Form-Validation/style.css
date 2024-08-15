@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgb(68, 172, 213),violet);
+    background-attachment: fixed;
+
+}
+
+#form {
+    width: 22vw;
+    margin: 20vh auto 0 auto;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(68, 172, 213);
+    margin-bottom: 5%;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input-field > label {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.input-field > input {
+    height: 4vh;
+    border-radius: 5px;
+    text-indent: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-size: 17px; */
+    margin-top: 5px;
+    border: 1px solid violet;
+
+}
+
+.input-field > input:focus {
+    outline: 0;
+}
+
+#form > button {
+    padding: 6px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 550;
+    font-size: 17px;
+    background-color: rgb(68, 172, 213);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin: 2% auto 4% auto ;
+    color: white;
+}
+
+.input-field > p {
+    color: rgb(232, 27, 27);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.input-field.success input{
+    border-color: rgb(41, 218, 41);
+}
+
+.input-field.error input{
+    border-color: rgb(222, 34, 34);
+}

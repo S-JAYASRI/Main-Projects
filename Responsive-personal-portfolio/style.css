@@ -7,6 +7,7 @@
 
 body {
     color: #ededed;
+    background: #081b29;
 }
 
 .header {
@@ -15,7 +16,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: transparent;
+    background: #051129;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,7 +57,7 @@ body {
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background-image: url(../Responsive-personal-portfolio/images/back-img.jpg);
+    /* background-image: url(../Responsive-personal-portfolio/images/back-img.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -110,7 +111,7 @@ body {
     margin-top: 4%;
     box-shadow: 0 0 5px #0ef,
     0 0 25px palevioletred, 0 0 50px #0ef,
-    0 0 100px palevioletred, 0 0 200px #0ef;
+    0 0 100px palevioletred;
     position: absolute;
     transition: .1s;
 }
@@ -118,7 +119,7 @@ body {
 .profile img:hover {
     box-shadow: 0 0 5px #0ef,
     0 0 25px #0ef, 0 0 50px #0ef,
-    0 0 100px #0ef, 0 0 200px #0ef;
+    0 0 100px #0ef;
     border: 6px solid white;
 
 }
@@ -173,6 +174,51 @@ body {
     box-shadow: 0 0 5px cyan,
         0 0 25px cyan, 0 0 50px cyan,
         0 0 100px cyan, 0 0 200px cyan;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+    height: 500px;
+}
+
+.about-img img {
+    border-radius: 50%;
+    max-width: 630px;
+    height: 270px;
+    width: auto;
+    border: 6px solid white;
+    box-shadow: 0 0 5px #0ef,
+    0 0 25px palevioletred, 0 0 50px #0ef,
+    0 0 100px palevioletred;
+    margin-left: 23%;
+    
+}
+
+.about-text h2 {
+    font-size: 60px;
+
+}
+
+.about-text h2 span {
+    color:#0ef
+}
+
+.about-text h4 {
+    font-size: 29px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.7;
+    margin: 15px 0 30px;
+}
+
+.about-text p {
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
 }
 
 @keyframes slideRight {

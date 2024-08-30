@@ -69,6 +69,7 @@ body {
 
 .home-content {
     max-width: 600px;
+    position: relative;
 }
 
 .home-content h3 {
@@ -83,7 +84,6 @@ body {
     color: #0ef;
     font-weight: 700;
 }
-
 
 .home-content h1 {
     font-size: 50px;
@@ -100,6 +100,26 @@ body {
     opacity: 0;
     animation: slideLeft 1s ease forwards;
     animation-delay: 1s;
+
+}
+
+.profile img {
+    border-radius: 50%;
+    height: 300px;
+    margin-left: 140%;
+    margin-top: 4%;
+    box-shadow: 0 0 5px #0ef,
+    0 0 25px palevioletred, 0 0 50px #0ef,
+    0 0 100px palevioletred, 0 0 200px #0ef;
+    position: absolute;
+    transition: .1s;
+}
+
+.profile img:hover {
+    box-shadow: 0 0 5px #0ef,
+    0 0 25px #0ef, 0 0 50px #0ef,
+    0 0 100px #0ef, 0 0 200px #0ef;
+    border: 6px solid white;
 
 }
 
@@ -202,3 +222,4 @@ body {
         opacity: 1;
     }
 }
+

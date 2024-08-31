@@ -382,7 +382,31 @@ section {
     transform-origin: left;
 }
 
+.progress-line.html span {
+    width: 90%;
+}
+.progress-line.css span {
+    width: 70%;
+}
+.progress-line.javascript span {
+    width:60%;
+}
+.progress-line.github span {
+    width:85%;
+}
 
+.progress-line span::after {
+    position: absolute;
+    padding: 1px 8px;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 3px;
+    top: -20px;
+    right: -20px;
+    animation: showText 0.5s 1.5s linear forwards;
+    opacity: 0;
+}
 
 
 

@@ -189,12 +189,18 @@ body {
     max-width: 630px;
     height: 270px;
     width: auto;
-    border: 6px solid white;
     box-shadow: 0 0 5px cyan,
     0 0 25px palevioletred, 0 0 50px cyan,
     0 0 100px palevioletred;
     margin-left: 23%;
     
+}
+
+.about-img img:hover {
+    box-shadow: 0 0 5px #0ef,
+    0 0 25px #0ef, 0 0 50px #0ef,
+    0 0 100px #0ef;
+    border: 6px solid white;
 }
 
 .about-text h2 {
@@ -398,7 +404,7 @@ section {
 .progress-line span::after {
     position: absolute;
     padding: 1px 8px;
-    background-color: #000;
+    background-color: #000000;
     color: #fff;
     font-size: 12px;
     border-radius: 3px;
@@ -469,12 +475,12 @@ section {
 
 .radial-bars .radial-bar .progress-bar {
     stroke-width: 10;
-    stop-color: #000;
+    stop-color: black;
     fill: transparent;
     stroke-dasharray: 502;
     stroke-dashoffset: 502;
     stroke-linecap: round;
-    animation: animate-bar 1s linear forwards;
+    animation: animate-bar 1s cubic-bezier(1,0,0.5,1) forwards;
 }
 
 @keyframes animate-bar {
@@ -490,6 +496,8 @@ section {
     stroke-dasharray: 502;
     stroke-dashoffset: 502;
     stroke-linecap: round;
+    animation: animate-bar 1s cubic-bezier(1,0,0.5,1) forwards;
+
 
 }
 

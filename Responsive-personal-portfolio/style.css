@@ -514,40 +514,6 @@ section {
     animation: animate-path4 1s 1s linear forwards;
 }
 
-.main-text {
-    padding-top: 130px;
-    margin-top: 200px;
-}
-
-.main-text h2 {
-    font-size: 60px;
-    line-height: 1;
-    text-align: center;
-}
-
-.main-text h2 span {
-    color: #0ef;
-}
-
-.portfolio-content {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
-}
-
-.row {
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-}
-
-.row img {
-    width: 100%;
-    border-radius: 8px;
-}
-
-
-
-
 
 @keyframes animate-path1 {
     100% {
@@ -594,9 +560,70 @@ section {
     animation: showText 0.5s 1s linear forwards;
     opacity: 0;
 }
+ .main-text {
+    padding-top: 130px;
+    margin-top: 200px;
+ }
 
+ .main-text h2 {
+    font-size: 60px;
+    line-height: 1;
+    text-align: center;
+ }
 
+ .main-text h2 span {
+    color: #0ef;
 
+ }
+
+ .portfolio-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(59px, auto));
+ }
+
+ .row {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+ }
+
+ .row img {
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+    transition: transform 0.5s;
+ }
+
+ .layer {
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.1),#0ef);
+    border-radius: 8px;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 0;
+    transition: height 0.5ms;
+ }
+
+ .layer h5 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+ }
+
+ .layer p {
+    color: #000;
+    font-size: 1rem;
+    line-height: 1.8;
+}
 
 
 

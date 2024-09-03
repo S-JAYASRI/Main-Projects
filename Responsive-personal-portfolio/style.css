@@ -561,14 +561,15 @@ section {
     opacity: 0;
 }
  .main-text {
-    padding-top: 130px;
-    margin-top: 200px;
+    padding-top: 10px;
+    margin-top: 150px;
  }
 
  .main-text h2 {
     font-size: 60px;
     line-height: 1;
     text-align: center;
+    margin-bottom: 5%;
  }
 
  .main-text h2 span {
@@ -577,8 +578,8 @@ section {
  }
 
  .portfolio-content {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(59px, auto));
+    display: flex;
+    flex-direction: row(1,1,1);
  }
 
  .row {
@@ -586,30 +587,33 @@ section {
     overflow: hidden;
     border-radius: 8px;
     cursor: pointer;
+    
  }
 
  .row img {
     width: 100%;
-    height: 200px;
+    height: 300px;
     border-radius: 8px;
     display: block;
     transition: transform 0.5s;
+    padding: 10px;
  }
 
  .layer {
     width: 100%;
     height: 0;
     background: linear-gradient(rgba(0,0,0,0.1),#0ef);
+    position: absolute;
     border-radius: 8px;
     left: 0;
     bottom: 0;
     overflow: hidden;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 40px 0;
+    padding: 0 40px;
     transition: height 0.5ms;
  }
 
@@ -628,7 +632,7 @@ section {
 
 .layer i {
     color: #ff004f;
-    margin-top: 20px;
+    margin-top: 20x;
     font-size: 20px;
     background: #fff;
     width: 60px;
@@ -641,6 +645,7 @@ section {
 
 .row:hover img {
     transform: scaleY(1.1);
+    padding: 10px;
 
 }
 

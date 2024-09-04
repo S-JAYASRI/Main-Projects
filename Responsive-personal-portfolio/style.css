@@ -668,6 +668,45 @@ section {
     text-align: center;
 }
 
+.contact-text h2 span {
+    color: #0ef;
+
+}
+
+.contact-text h4 {
+    margin: 15px 0;
+    color: rgba(228,228,228);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contact-text p {
+    color:rgba(177,177,177);
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 2rem;
+}
+
+.contact-list {
+    margin-bottom: 3rem;
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.contact-list i {
+    display: inline-block;
+    color:#0ef;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all .40s ease;
+}
+
+.contact-list li a:hover {
+    
+}
 
 
 

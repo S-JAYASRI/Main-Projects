@@ -705,7 +705,21 @@ section {
 }
 
 .contact-list li a:hover {
-    
+    transform: scale(1.01) translate(-5px);
+    color: #0ef;
+}
+
+.contact-icons i {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #0ef;
 }
 
 

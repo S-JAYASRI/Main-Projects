@@ -705,7 +705,7 @@ section {
 }
 
 .contact-list li a:hover {
-    transform: scale(1.01) translate(-5px);
+    transform: scale(1.01) translateY(-5px);
     color: #0ef;
 }
 
@@ -724,8 +724,8 @@ section {
     margin: 30px 15px 30px 0;
     transition: .5s ease;
     opacity: 0;
-    animation: slideleft 1s ease forwards;
-    animation-delay: calc(.2s * var(--1));
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
 }
 
 .contact-icons i:hover {
@@ -738,10 +738,23 @@ section {
     position: relative;
 }
 
-.contact-form form input textarea {
+.contact-form form input {
     border: none;
     outline: none;
-    width: 90%;
+    width: 65%;
+    padding: 18px;
+    background: #555557;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.contact-form > form > textarea {
+    border: none;
+    outline: none;
+    width: 65%;
     padding: 18px;
     background: #555557;
     color: #000;
@@ -760,7 +773,7 @@ section {
 
 .contact-form form .send {
     display: inline-block;
-    padding: 140px 60px;
+    padding: 10px 60px;
     background: #0ef;
     border-radius: 60px;
     font-size: 18px;

@@ -597,6 +597,7 @@ section {
     display: block;
     transition: transform 0.5s;
     padding: 10px;
+    margin-left: 3%;
  }
 
  .layer {
@@ -674,7 +675,7 @@ section {
 }
 
 .contact-text h4 {
-    margin: 15px 0;
+    margin: 25px 0;
     color: rgba(228,228,228);
     font-size: 20px;
     font-weight: 600;
@@ -741,27 +742,29 @@ section {
 .contact-form form input {
     border: none;
     outline: none;
-    width: 65%;
-    padding: 18px;
+    width: 55%;
+    padding: 14px;
     background: #555557;
     color: #000;
     font-size: 1rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
     border-radius: 0.5rem;
+    margin-left: 6%;
 }
 
 .contact-form > form > textarea {
     border: none;
     outline: none;
-    width: 65%;
-    padding: 18px;
+    width: 55%;
+    padding: 14px;
     background: #555557;
     color: #000;
     font-size: 1rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
     border-radius: 0.5rem;
+    margin-left: 6%;
 }
 
 .contact-form textarea {
@@ -774,6 +777,7 @@ section {
 .contact-form form .send {
     display: inline-block;
     padding: 10px 60px;
+    margin-top: 2%;
     background: #0ef;
     border-radius: 60px;
     font-size: 18px;
@@ -794,6 +798,30 @@ section {
     0 0 25px cyan, 0 0 50px cyan,
     0 0 100px cyan, 0 0 200px cyan;
 }
+
+.last-text p {
+    width: 100%;
+    padding: 25px 0;
+    text-align: center;
+    background: rgb(7,85,91);
+    font-weight: 300;
+    margin-top: 70px;
+}
+
+.top {
+    position: fixed;
+    bottom: 2.1rem;
+    right: 2.1rem;
+}
+
+.top i {
+    color: #000;
+    background: #0ef;
+    font-size: 20px;
+    padding: 10opx;
+}
+
+
 
 
 

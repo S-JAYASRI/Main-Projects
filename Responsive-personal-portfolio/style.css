@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -818,7 +819,8 @@ section {
     color: #000;
     background: #0ef;
     font-size: 20px;
-    padding: 10opx;
+    padding: 10px;
+    border-radius: 0.3rem;
 }
 
 

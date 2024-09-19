@@ -40,5 +40,6 @@ header .heading #color {
     left: 50%;
     transform: translate(-50%,-50%);
     position: absolute;
-    color: white
+    color: white;
+    letter-spacing: 1px;;
 }
